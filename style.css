@@ -1,0 +1,20 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+input {
+  border-top-style: hidden !important;
+  border-right-style: hidden !important;
+  border-left-style: hidden !important;
+  border-bottom-style: groove !important;
+}
+
+.container {
+  margin-top: 0px !important;
+}
+
+
+.col1 h1 {
+  margin: 10px;
+  padding: 10px;
+}

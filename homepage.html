@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link
+                rel="stylesheet"
+                href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+                integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+                crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col col1">
+<!--                    <form method="get">-->
+                        <div class="d-flex justify-content-start ml-3">
+                            <h1>.\ttic</h1>
+                        </div>
+                        <div class="d-flex justify-content-start ml-3">
+                            <h5>Schedule an Online Notary Now</h5>
+                        </div>
+
+                        <div class="form-group my-4 ml-3">
+                            <label for="name">Full name</label>
+                            <input
+                                    type="text"
+                                    class="form-control"
+                                    id="name"
+                                    aria-describedby="emailHelp"
+                                    placeholder="Input text with label"
+                            />
+                        </div>
+                        <div class="form-group my-4 ml-3">
+                            <label for="email">Email</label>
+                            <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    aria-describedby="emailHelp"
+                                    placeholder="Input text with label"
+                            />
+                        </div>
+                        <div class="form-group my-4 ml-3">
+                            <label>phone Number</label>
+                            <input
+                                    type="tel"
+                                    class="form-control"
+                                    id="phnnumber"
+                                    placeholder="Input text with label"
+                            />
+                        </div>
+                        <div class="form-group my-4 ml-3 d-flex justify-content-between">
+                            
+                            How many Notarisations<select id="dropDownNot" 
+                            style="
+                            background-color: rgb(245, 245, 245);
+                            border: 1px solid blue;
+                            color: #000;
+                            ">
+                                <option value="" selected disabled hidden>Select</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        <div class="form-group my-4 ml-3 d-flex justify-content-between">
+                            How many Signers <select id="dropDownSign"
+                            style="
+                            background-color: rgb(245, 245, 245);
+                            border: 1px solid blue;
+                            color: #000;
+                            ">
+                                <option value="" selected disabled hidden>Select</option>
+                                <option value="1">5</option>
+                                <option value="2">8</option>
+                                <option value="3">10</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group my-4 ml-3">
+                            <div class="d-flex justify-content-end mt-5">
+                                <button class="btn btn-success" id="change">
+                                    Save and continue
+                                </button>
+                            </div>
+                        </div>
+<!--                    </form>-->
+                </div>
+                <div class="col col2">
+                    <img src="img1.JPG" width="650" height="700" alt=""/>
+                </div>
+
+
+            </div>
+        </div>
+        <script
+                src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"
+        ></script>
+        <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"
+        ></script>
+        <script
+                src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"
+        ></script>
+        <script src="main.js"></script>
+
+    </body>
+</html>
